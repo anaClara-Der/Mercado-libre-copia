@@ -1,0 +1,105 @@
+@media( min-width: 800px){
+   body{
+    overflow-x: hidden;
+   }
+   .header--caja__uno{
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: none;
+  }
+  .header--container--menu{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header--caja__dos{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+   .header__logo-desktop{
+    display: inline-block;
+    width: 12%;
+    cursor: pointer;
+   }
+   .menu__desktop--item, .menu--secion--item{
+    list-style: none;
+   }
+   .nav__menu--desktop{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+   }
+   .menu__desktop--item{
+    margin: 0px 10px;
+    color:var(--letras);
+    font-size: 14px;
+   }
+   /*Input para buscar*/
+    .nav--container{
+        width: 70%;
+    }
+    .nav__search_lup{
+        width: 10%;
+        right: 0px;
+        border-left: 1px solid var(--letra--location);
+    }
+    .nav__menu--secion{
+        display: flex;
+    }
+    .menu--secion--item{
+        margin-left: 15px;
+        font-size: 14px;
+    }
+ /*Slider*/
+    .main__slider{
+        height: 50vh;
+    }
+    .slider--ul{
+        display: flex;
+        width: 400%;
+        height: 50vh;
+    }
+    
+    .slider--li {
+       list-style: none;
+       width: 100%;
+    }
+    .slider--li img{
+        width: 100%;
+        height: 50vh;
+    }
+     /*Card productos*/
+    .container__productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        justify-items: center;
+    }
+    .card--producto{
+        width: 80%;
+        margin: 20px;
+    }
+    .producto__name{
+        font-size: 24px;
+    }
+    .producto__img{
+        width: 50%;
+    }
+    .container__producto--info{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   /*Elementos movil que no deben verse en destop*/
+   .header__logo-movil{
+    display: none;
+   }
+   
+   .button__nav--menu{
+    display: none;
+   }
+ 
+}

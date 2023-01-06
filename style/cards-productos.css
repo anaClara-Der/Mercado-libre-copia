@@ -1,0 +1,41 @@
+.title--producto--buscado{
+    font-size: 16px;
+    color: var(--letras);
+    font-weight: 600;
+    margin: 20px;
+    text-transform: lowercase;
+}
+.title--producto--buscado:first-letter {
+    text-transform: uppercase;
+}
+.card--producto{
+    width: 90%;
+    display: flex;
+    margin: 20px auto;
+    background-color: var(--white);
+    padding: 10px;
+}
+.producto__name{
+    line-height:16px;
+}
+.producto__img{
+    width: 70%;
+    height: 100%;
+}
+.producto__link{
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--letras);
+}
+.container__producto--info{
+    width: 80%;
+}
+.producto__precio{
+    font-size: 20px;
+    color: var(--letras);
+}
+.producto__vendedor{
+    font-size: 12px;
+    color: var(--letras-pequeñas);
+}
+

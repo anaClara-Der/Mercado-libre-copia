@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/slider.css">
+    <link rel="stylesheet" href="./style/pagos.css">
+    <link rel="stylesheet" href="./style/cards-productos.css">
+    <link rel="stylesheet" href="./style/desktop.css">
+</head>
+<body>
+    <!--Encabezado-->
+        <header class="container__header">
+
+            <div class="header--caja__uno">
+                <img class="header__logo-movil" src="./img/nav-logo.png" alt="logo"><!--logo movil-->
+                <img class="header__logo-desktop" src="./img/nav-logo-desktop.png" alt="logo"> <!--desktop-->
+            <form class="nav--container" >
+                <button type="submit" class="nav__search_lup">O</button>
+                <input class="nav__search" type="text" placeholder="Buscar producctos, marcas">
+            </form>
+            <button  class="button__nav--menu">
+                <i  class= "nav__menu fas fa-bars"></i>
+            </button>
+            
+            <i class="nav__cart icono-carrito fas fa-cart-plus "></i>
+            </div>
+
+            <div class="header--caja__dos">
+                <div class="header--container--menu">
+                <span class="header__location">Enviar a Capital Federal</span>
+                <!--desktop-->
+                <ul class="nav__menu--desktop">
+                    <li class="menu__desktop--item">Categorías</li>
+                    <li class="menu__desktop--item">Ofertas</li>
+                    <li class="menu__desktop--item">Historial</li>
+                    <li class="menu__desktop--item">Supermercado</li>
+                    <li class="menu__desktop--item">Vender</li>
+                    <li class="menu__desktop--item">Ayuda</li>
+                </ul>
+            </div>
+                <ul class="nav__menu--secion">
+                    <li class="menu--secion--item">Creá tu cuenta</li>
+                    <li class="menu--secion--item">Ingresá</li>
+                    <li class="menu--secion--item">Mis compras</li>
+                </ul>
+            </div>
+        </header>
+<!--Main-->
+
+<main class="container__main">
+    <!--Slider-->
+    <section class="main__slider">
+            <ul class="slider--ul">
+                <li class="slider--li"><img src="./img/agua.jpg" alt="Paisaje de playa"></li>
+                <li class="slider--li"><img src="./img/bosque.jpg" alt="Un bosque"></li>
+                <li class="slider--li"><img src="./img/noche.jpg" alt="cielo estrellado"></li>
+                <li class="slider--li"><img src="./img/ruta.jpg" alt="Ruta"></li>
+            </ul>
+    </section>
+    <!--Formas de pago-->
+    <section class="main__pagos">
+        <div class="main__pagos--card">
+            <img class="card__img" src="https://http2.mlstatic.com/storage/homes-korriban/assets/images/payments/credit-card.svg" alt="tarjeta">
+            <div class="card__text">
+                <p class="card__p">Tarjeta de crédito</p>
+                <span class="card__span"><a class="card__link" href="#">Ver promociones bancarias</a></span>
+            </div>
+            <img class="card__mas" src="https://http2.mlstatic.com/storage/homes-korriban/assets/images/payments/view-more.svg" alt="Mas">
+        </div>
+    </section>
+    
+    <!--Prodcutos-->
+    <h1 class="title--producto--buscado"></h1>
+    <section class="container__productos">
+    <!--El template con la card de productos-->
+    </section>
+</main>
+
+
+
+<template  id="template--card">
+    <div class="card--producto">
+        <img class="producto__img" src="" alt="">
+    <div class="container__producto--info">
+        <h2 class="producto__name"><a class="producto__link" href=""  target="_blank" ></a></h2>
+        <p class="producto__precio"></p>
+        <span class="producto__vendedor"></span>
+    </div>
+    </div>
+    
+</template>
+        <script src="https://kit.fontawesome.com/d9e2ae4403.js" crossorigin="anonymous"></script>
+
+        <script src="./index.js"></script>
+</body>
+</html>

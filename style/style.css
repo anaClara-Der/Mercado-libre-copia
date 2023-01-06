@@ -1,0 +1,96 @@
+:root{
+    --yellow: #fff159;
+    --border: #c1b74d;
+    --letra--location: #736c28;
+    --icono: #333;
+    --white: #fff;
+    --background:#ebebeb;
+    --letras: #333333;
+    --placeholder: #c5c0c0;;
+    --letras-pequeñas: #0000008c;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: var(--background) ;
+  }
+  /*HEADER*/
+  .container__header{
+    width: 100vw;
+    background-color: var(--yellow);
+  }
+  .header--caja__uno{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: solid 1px var(--border);
+  }
+  .header__logo-movil{
+    width: 12%;
+    height: auto;
+    cursor: pointer;
+  }
+  /*Buscar, menu y carrito*/
+  .nav--container{
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .nav__search{
+    padding: 5px 5px 7px 35px;
+    background-color: var(--white);
+    color: var(--icono);
+    border: none;
+    font-size: 16px;
+    width: 100%;
+  }
+  .nav__search:placeholder{
+    color: var(--placeholder);
+  }
+  .button__nav--menu{
+    background-color: var(--yellow);
+    border: none;
+    font-size: 16px;
+  }
+  .nav__search_lup{
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: var(--white);
+    border: none;
+  }
+  .nav__menu{
+    font-size: 25px;
+    color: var(--icono);
+  }
+  .nav__cart{
+    font-size: 20px;
+    color: var(--icono);
+  }
+  /*Header-caja abajo*/
+  .header--caja__dos{
+    padding: 10px;
+  }
+  .header__location{
+    color: var(--letra--location);
+    font-size: 13px;
+  }
+
+  /*ocultar elementos*/
+.desaparecer{
+  display: none;
+}
+.aparecer{
+  display: inline-block;
+}
+
+/*Elementos de desktop que no deben verse en versión movil*/
+.header__logo-desktop, .nav__menu--desktop, .nav__menu--secion{
+  display: none;
+}
