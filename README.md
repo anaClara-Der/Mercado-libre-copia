@@ -1,5 +1,6 @@
 # api-ML
 
-Consumir Api de Mercado Libre 
+Se pueden realizar búsquedas de productos ya que se consume la API de Mercado Libre
 
-Link:  https://anaclara-der.github.io/api-ML/
+
+Link:   https://anaclara-der.github.io/Mercado-libre-copia/
